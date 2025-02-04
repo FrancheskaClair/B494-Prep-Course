@@ -1,3 +1,5 @@
 Cheska
 
-Through this bootcamp, I aim to widen my knowlege on the application of various programming languages in order to gain valuable coding skills which would aid me in landing a job in the IT industry.
+I wish to gain valuable coding skills which would aid me in hopefully landing a job in the IT industry.
+
+Through this bootcamp, I aim to widen my knowledge on the application of various programming languages.  
