@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<meta charset="utf-8">
+	<title>HTML Introduction</title>
+
+</head>
+<body>
+	<!-- <h1></h1> (biggest) to <h6></h6> (smallest) - is used to create a heading-->
+	<h1>Zuitt Coding Bootcamp</h1>
+	<h2>John Doe</h2>
+	<!-- <p></p> - paragraph tag - is used to create paragraph element-->
+	<p>Let's enumerate all the things we will study in this Prep Course.</p>
+
+<h3>Prep Course</h3>
+
+<ol type="i">
+
+	<li>Git Basics</li>
+	<li>HTML Introduction</li>
+	<li>HTML Forms and Semantic HTML</li>
+	<li>CSS Introduction</li>
+	<li>CSS Box Model</li>
+</ol>
+<!-- <div></div> - helpful tag in grouping multiple elements-->
+<div>
+	<!-- <img src=""/> - adds image -->
+	<!-- src attribute - means source (source image, location of the image) -->
+	<!-- attributes (purple tags) help us change the attributes of an element -->
+	<img src= "https://i.imgur.com/Tau2zTi.png"
+	<h3>Git VCS</h3>
+</div>
+<!-- you can use semantic tags like section, article, etc -->
+
+<div align="center">
+	<img src= "https://i.imgur.com/9WtW3SE.png"
+	<h3>Zuitt Coding Bootcamp</h3>
+</div>
+
+<h4>Hyperlinks</h4>
+<!-- <a></a> (anchor tag) - is used to create hyperlinks withh the help of href attribute -->
+<!-- href (hypertext reference) - to add a url/file path where to be directed -->
+<!-- target= _blank" - opens the document / web page to a new window or tag -->
+	<a href="https://zuitt.co/" target=" _blank">Zuitt Coding Bootcamp</a>
+	<a href="https://www.linkedin.com/school/zuitt" target=" _blank">LinkedIn</a>
+
+
+
+
+
+
+
+</body>
+</html>
