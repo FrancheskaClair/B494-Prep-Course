@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>HTML Forms and Semantic HTML</title>
+</head>
+<body>
+
+	<h1>HTML - Forms and Semantic HTML</h1>
+
+	<main>
+		<section>
+			<!-- action attribute - sends the input values to a specific page (in our case, it sends it to google.com) -->
+			<form action="https://google.com">
+				<!-- for attribute is to direct the user to an input box with the matched id value -->
+				<label for="full name">Full Name:</label> <br>
+				<!-- To create an input box, we usually include the type of input box using type attribute -->
+				<!-- required attribute - requires the user to input in the input box (it wil not alow submission if the input box is empty) -->
+				<!-- autocomplete attribute - suggests previous inputs -->
+				<!-- name attribute - creates a url key -->
+				<input type="text" name="full_name" id="full_name" required autocomplete><br>
+				<label for="birth_date">Birth Date:</label><br>
+				<input type="date" name="birth_date" id="birth_date" required><br>
+
+				<label for="Age">Age:</label><br>
+				<input type="number" name="age" id="age" required><br>
+
+				<!-- type ="text", "number", "password", etc-->
+
+				<label for="notes">Notes</label><br>
+				<textarea name="notes" id="notes"></textarea><br>
+
+				<label for="reason">Bakit hindi ako pinili?</label><br>
+				<select id="reason" name="reason">
+					<option>Pogi ko kasi</option>
+					<option>Di ako type</option>
+					<option>Di tinadhana</option>
+				</select><br><br>
+
+				<!-- Submit Button -->
+				<!-- type="reset" - to clear out all the fields inside the form -->
+				<button type="submit">Submit</button>
+				<button type="reset">Reset</button>
+			</form>
+
+		</section>
+
+	</main>
+
+
+
+</body>
+</html>
