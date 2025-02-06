@@ -1,0 +1,61 @@
+*{
+	font-family: "Courier", monospace;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+h1{ 
+	font-family: "Work Sans", sans-serif;
+	color: coral;
+
+}
+
+h2{ 
+	font-family: "Merriweather", serif;
+	color: slategray;
+
+}
+
+body{
+	background-color: beige ;
+
+}
+
+nav{
+	padding: 8px;
+	background-color: paleturquoise;
+	text-align: center;
+}
+
+#landing{
+	text-align: center;
+}
+
+#profile{
+	height: 300px;
+	width: 300px;
+	border-radius: 150px;
+}
+
+#artists{
+	text-align: center;
+	margin: 60px;
+}
+
+#songs{
+	text-align: center;
+	margin: 60px;
+}
+
+ul{
+	list-style-type: none;
+}
+
+footer{
+	text-align: center;
+	padding: 8px;
+	background-color: paleturquoise;
+}
+
