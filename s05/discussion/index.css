@@ -1,0 +1,78 @@
+/*CSS Reset*/
+*{
+	margin: 0;
+	padding: 0;
+	/*if the width: 100px and padding: 10px, the total width is still 100px, not  110px*/
+	box-sizing: border-box;
+}
+
+body{
+	font-family: "Arial", sans-serif;
+}
+
+nav{
+	padding: 8px;
+	margin-top: 5px;
+	text-align: center;
+	background-color: gray;
+	
+}
+
+a{
+	/* text-decoration - removes the underline (especially by default in the hyperinks) */
+	text-decoration: none;
+	color: white;
+}
+
+a:hoover{
+	color: yellow;
+	font-size: 25px;
+}
+
+#landing{
+	padding-left: 300px;
+	padding-right: 300px;
+	padding-top: 32px;
+	padding-bottom: 32px;
+
+	text-align: center;
+	border: 2px solid black;
+}
+
+/*#succeed-info{
+	margin-top:10px;
+}*/
+
+#apply{
+	color: white;
+	background-color: slategray;
+	padding: 8px;
+	font-size: 16px;
+	margin-top: 16px;
+}
+
+.header{
+	margin-top: 16px;
+	margin-bottom: 16px;
+}
+
+#mission{
+	text-align: center; 
+	padding-left: 15vw;
+	padding-right: 15vw;
+	padding-top: 32px;
+	padding-bottom: 32px;
+}
+
+.card{
+	/*text-align: center;*/
+
+	display: inline-block;
+	width: 22vw;
+}
+
+footer{
+	margin-top: 50px;
+	padding: 16px;
+	text-align: center;
+}
